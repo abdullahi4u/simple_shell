@@ -27,4 +27,12 @@ utils.c: contains utility functions used by other parts of the shell code.
 lists.h: header file for the linked list code in lists.c.
 shell.h: header file for the main shell program.
 utils.h: header file for the ut
+## main.c
 
+### The code is written in C and consists of several source files, including:
+
+shell.c: main program file that contains the main function and handles user input and program execution.
+history.c: file that contains functions for saving and loading command history.
+utils.c: file that contains utility functions used throughout the program.
+lists.c: file that contains functions for working with linked lists.
+shell.h: header file that contains function prototypes and definitions.
