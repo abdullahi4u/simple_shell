@@ -36,3 +36,19 @@ history.c: file that contains functions for saving and loading command history.
 utils.c: file that contains utility functions used throughout the program.
 lists.c: file that contains functions for working with linked lists.
 shell.h: header file that contains function prototypes and definitions.
+
+## shell.h
+
+### This is a header file for a simple Unix shell implementation written in C.
+
+The file contains various function prototypes, constants, and structs that are used throughout the program.
+
+The program is divided into multiple source files, including the main loop (toem_shloop.c), parser (toem_parser.c), tokenizer (toem_tokenizer.c), and built-in commands (toem_builtin.c).
+
+The program supports basic shell functionality, including the ability to execute commands with arguments, redirect input/output, and chain commands with && and ||. It also supports built-in commands such as cd, exit, and history.
+
+The program utilizes various Unix system calls and functions, such as fork(), execvp(), wait(), open(), and close(), as well as linked lists and dynamic memory allocation.
+
+The header file contains multiple constants for buffer sizes, command chaining types, and input/output redirection. It also includes structs for storing linked lists of environment variables, history, and aliases, as well as a struct for passing information between functions.
+
+Overall, this shell implementation provides a basic example of how a Unix shell can be implemented in C, and demonstrates various programming concepts such as system calls, linked lists, and dynamic memory allocation.
